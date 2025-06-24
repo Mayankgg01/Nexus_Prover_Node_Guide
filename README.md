@@ -178,13 +178,24 @@ screen -S nexus2
 
 * Get node if from here: Generate New: [Get your node ID 🛠](https://github.com/Mayankgg01/Nexus_Prover_Node_Guide/edit/main/README.md#get-your-node-id-)
 
-* **Start your prover**
+* **Start your prover (via Script)**
 
 ```
 nexus-network start --node-id <your-node-id>
 ```
 
-Replace `<your-node-id>` with your actual node id:
+* **Start your prover (Build from source)**
+
+```
+cd ~/nexus-cli/clients/cli
+```
+
+```
+cargo run -r -- start --node-id <your-node-id>
+```
+
+
+-----------Replace `<your-node-id>` with your actual node id:-----------
 
 
 ❗❗**Note**:  Depend on your system/Vps u can run multiple nodes: Dont cross the limit and monitor your memory uses and cpu before doing multiple:
