@@ -189,7 +189,11 @@ Replace `<your-node-id>` with your actual node id:
 
 ❗❗**Note**:  Depend on your system/Vps u can run multiple nodes: Dont cross the limit and monitor your memory uses and cpu before doing multiple:
 
+U can check Memory on your VPS by this command:
 
+```
+free -h
+```
 
 
 # Next Day start command for local PC:
