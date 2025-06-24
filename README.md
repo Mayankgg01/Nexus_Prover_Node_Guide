@@ -45,7 +45,7 @@ sudo apt install curl iptables build-essential git wget lz4 jq make cmake gcc na
 * Install rustup
 
 ```
-curl https://sh.rustup.rs -sSf | sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
 ```
@@ -61,10 +61,9 @@ rustc --version
 
 <div align="center">
 
-#  Run Your Prover by CLI 🍥
+#  Run Your Prover via CLI (Install via Script) 🍥
 
 </div>
-
 
 
 
@@ -81,7 +80,7 @@ screen -S nexus
 curl https://cli.nexus.xyz/ | sh
 ```
 
-* Add nexus in your path
+* Add nexus to your path
 
 ```
 source ~/.bashrc
@@ -94,6 +93,59 @@ nexus-network start --node-id <your-node-id>
 ```
 
 Replace `<your-node-id>` with your actual node id from [Get your node ID 🛠](https://github.com/Mayankgg01/Nexus_Prover_Node_Guide/edit/main/README.md#get-your-node-id-)
+
+
+
+<div align="center">
+
+#  Run Your Prover via CLI (Build from source) 🍥
+
+</div>
+
+
+* Create screen session (Vps Only)
+
+```
+screen -S nexus
+```
+
+* Clone the Repository
+
+
+```
+git clone https://github.com/nexus-xyz/nexus-cli.git
+```
+
+* Move & Build the release
+
+```
+cd ~/nexus-cli/clients/cli
+```
+
+```
+cargo build --release
+```
+
+
+🔺It will take some time here to compile it:
+
+
+* Add nexus to your path
+
+```
+source ~/.bashrc
+```
+
+
+* **Start Your Prover**
+
+```
+cargo run -r -- start --node-id <your-node-id>
+```
+
+Replace `<your-node-id>` with your actual node id from [Get your node ID 🛠](https://github.com/Mayankgg01/Nexus_Prover_Node_Guide/edit/main/README.md#get-your-node-id-)
+
+
 
 
 ![image](https://github.com/user-attachments/assets/a2c9bb37-e72b-4c42-8d7a-14554de938e5)
