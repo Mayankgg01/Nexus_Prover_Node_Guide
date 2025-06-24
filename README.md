@@ -16,7 +16,7 @@
 
 # Device/System Requirements 💻
 
-* So Minimun 4GB of memory can we sufficient for the Nexus Prover, 
+* So Minimun 6GB of memory can we sufficient for the Nexus Prover, 
 
 * And u can run multiple nodes in a single vps/device:
 
