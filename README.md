@@ -16,9 +16,9 @@
 
 # Device/System Requirements 💻
 
-* So Minimun 6GB of memory can we sufficient for the Nexus Prover, 
+* So Minimun 12GB of memory can we sufficient for running a Nexus Prover node, 
 
-* And u can run multiple nodes in a single vps/device:
+* You can run multiple nodes in a single vps/device: But **I wont recommend it** cause If u dont have sufficient memory then it can be cause of **system crash**:❗❗
 
 * **More Memory/RAM = High Cycles/sec**
 
@@ -168,39 +168,8 @@ Attach with this command:
 `screen -r Screen_Name` 
 
 
-# Run Multiple Prover node in a single vps/device
 
-* Create another Screen 
-
-```
-screen -S nexus2
-```
-
-* Get node if from here: Generate New: [Get your node ID 🛠](https://github.com/Mayankgg01/Nexus_Prover_Node_Guide/edit/main/README.md#get-your-node-id-)
-
-* **Start your prover (via Script)**
-
-```
-nexus-network start --node-id <your-node-id>
-```
-
-* **Start your prover (Build from source)**
-
-```
-cd ~/nexus-cli/clients/cli
-```
-
-```
-cargo run -r -- start --node-id <your-node-id>
-```
-
-
------------Replace `<your-node-id>` with your actual node id:-----------
-
-
-❗❗**Note**:  Depend on your system/Vps u can run multiple nodes: Dont cross the limit and monitor your memory uses and cpu before doing multiple:
-
-U can check Memory on your VPS by this command:
+* U can check Memory on your VPS by this command:
 
 ```
 free -h
