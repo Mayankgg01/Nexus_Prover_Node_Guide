@@ -74,7 +74,7 @@ screen -S nexus
 ```
 
 
-* Install the Cli
+* ####  Install the Cli
 
 ```
 curl https://cli.nexus.xyz/ | sh
@@ -186,6 +186,60 @@ nexus-network start --node-id <your-node-id>
 
 Replace `<your-node-id>` with your actual node id from [Get your node ID 🛠](https://github.com/Mayankgg01/Nexus_Prover_Node_Guide/edit/main/README.md#get-your-node-id-)
 
+
+
+<div align="center">
+
+# 📈 Upgrade to new release {v0.9.0}     (Mac/Linux)
+
+</div>
+
+
+### If you have followed [Run Your Prover via CLI (Install via Script) 🍥](https://github.com/Mayankgg01/Nexus_Prover_Node_Guide?tab=readme-ov-file#run-your-prover-via-cli-install-via-script-) then follow these process 👇
+
+
+* You Just have to follow from here [Install the Cli](https://github.com/Mayankgg01/Nexus_Prover_Node_Guide/edit/main/README.md#install-the-cli) Thats it!
+
+
+
+
+
+### If You have followed [Run Your Prover via CLI (Build from source) 🍥](https://github.com/Mayankgg01/Nexus_Prover_Node_Guide?tab=readme-ov-file#run-your-prover-via-cli-build-from-source-) then follow these process 👇
+
+
+
+* Move to Directory
+
+```
+cd ~/nexus-cli
+```
+
+* Pull the latest Release
+
+```
+git fetch --tags
+git checkout tags/v0.9.0
+```
+
+* Build the release
+
+```
+cargo build --release
+```
+
+```
+source ~/.bashrc
+```
+
+* Start Your prover:
+
+```
+cargo run -r -- start --node-id <your-node-id>
+```
+
+Dont Forget to Replace Your Node-Id
+
+All Set!✔️
 
 
 👉 Join TG for more Updates: https://telegram.me/cryptogg
