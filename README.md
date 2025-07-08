@@ -218,7 +218,7 @@ cd ~/nexus-cli
 
 ```
 git fetch --tags
-git checkout tags/v0.9.0
+git checkout tags/v0.9.1
 ```
 
 * Build the release
