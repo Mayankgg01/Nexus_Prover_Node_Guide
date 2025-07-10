@@ -92,7 +92,7 @@ source ~/.bashrc
 nexus-network start --node-id <your-node-id>
 ```
 
-Replace `<your-node-id>` with your actual node id from [Get your node ID 🛠](https://github.com/Mayankgg01/Nexus_Prover_Node_Guide/edit/main/README.md#get-your-node-id-)
+Replace `<your-node-id>` with your actual node id from [Get your node ID 🛠](https://github.com/Mayankgg01/Nexus_Prover_Node_Guide/tree/main?tab=readme-ov-file#get-your-node-id-)
 
 
 
@@ -143,7 +143,7 @@ source ~/.bashrc
 cargo run -r -- start --node-id <your-node-id>
 ```
 
-Replace `<your-node-id>` with your actual node id from [Get your node ID 🛠](https://github.com/Mayankgg01/Nexus_Prover_Node_Guide/edit/main/README.md#get-your-node-id-)
+Replace `<your-node-id>` with your actual node id from [Get your node ID 🛠](https://github.com/Mayankgg01/Nexus_Prover_Node_Guide/tree/main?tab=readme-ov-file#get-your-node-id-)
 
 
 
@@ -184,7 +184,7 @@ free -h
 nexus-network start --node-id <your-node-id>
 ```
 
-Replace `<your-node-id>` with your actual node id from [Get your node ID 🛠](https://github.com/Mayankgg01/Nexus_Prover_Node_Guide/edit/main/README.md#get-your-node-id-)
+Replace `<your-node-id>` with your actual node id from [Get your node ID 🛠](https://github.com/Mayankgg01/Nexus_Prover_Node_Guide/tree/main?tab=readme-ov-file#get-your-node-id-)
 
 
 
@@ -198,7 +198,7 @@ Replace `<your-node-id>` with your actual node id from [Get your node ID 🛠](h
 ### If you have followed [Run Your Prover via CLI (Install via Script) 🍥](https://github.com/Mayankgg01/Nexus_Prover_Node_Guide?tab=readme-ov-file#run-your-prover-via-cli-install-via-script-) then follow these process 👇
 
 
-* You Just have to follow from here [Install the Cli](https://github.com/Mayankgg01/Nexus_Prover_Node_Guide/edit/main/README.md#install-the-cli) Thats it!
+* You Just have to follow from here [Install the Cli](https://github.com/Mayankgg01/Nexus_Prover_Node_Guide/tree/main?tab=readme-ov-file#install-the-cli) Thats it!
 
 
 
