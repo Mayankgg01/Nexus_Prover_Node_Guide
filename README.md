@@ -190,7 +190,7 @@ Replace `<your-node-id>` with your actual node id from [Get your node ID 🛠](h
 
 <div align="center">
 
-# 📈 Upgrade to new release {v0.9.0}     (Mac/Linux)
+# 📈 Upgrade to new release {v0.9.6}     (Mac/Linux)
 
 </div>
 
@@ -218,10 +218,14 @@ cd ~/nexus-cli
 
 ```
 git fetch --tags
-git checkout tags/v0.9.1
+git checkout tags/v0.9.6
 ```
 
 * Build the release
+
+```
+cd ~/nexus-cli/clients/cli
+```
 
 ```
 cargo build --release
